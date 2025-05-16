@@ -1,1 +1,25 @@
+# === Python Dependencies ===
 pyperclip
+
+# === System Dependencies (manual install) ===
+# These are required for DarkWire to work on Kali Linux:
+
+# Install metasploit:
+# sudo apt install metasploit-framework -y
+
+# Install Apache2 web server:
+# sudo apt install apache2 -y
+
+# Install Wine (for Resource Hacker icon injection):
+# sudo apt install wine -y
+
+# Install xterm (used for listener and HTTP server windows):
+# sudo apt install xterm -y
+
+# OPTIONAL (for icon support):
+# mkdir ~/reshacker && cd ~/reshacker
+# wget https://www.angusj.com/resourcehacker/resource_hacker.zip
+# unzip resource_hacker.zip
+
+# Start Apache before running tool:
+# sudo service apache2 start
